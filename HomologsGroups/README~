@@ -1,0 +1,1 @@
+Each .faa file in this folder is a Homologs Group (HG) containing protein sequences. HGs were generated using the sofware get_homologues. Gene codes were replaced by shorter names, the equivalence between original gene names and our gene names can be found in the Equivalence folder.

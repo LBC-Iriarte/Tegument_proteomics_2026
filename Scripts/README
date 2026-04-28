@@ -1,0 +1,34 @@
+This folder contains the scripts used in the processing of the data of the manuscript. Here is a list of such scripts and a brief description:
+
+cestrem.sh
+# The objective of the script is to find the homologs groups that contain sequences from the species of interest
+
+Detected.sh
+ The objective of this script is to count Homologs Groups (HGs) that contain:
+#      - Proteins detected by proteomics in one species
+#      - Proteins detected in one species with an homolog in the other species
+#      - Proteins detected in one species with an homolog detected in the other species as well
+
+Processor.pl
+# This Perl script renames sequence headers in a FASTA file. The script takes a FASTA file and adds a prefix followed by an incremental number to each sequence header.
+
+SeqCounter.sh
+# The objective is to count sequences from species of interest in Homologs Groups
+
+SpeciesSearch.sh
+# The goal of this script is to search for proteins identified by proteomics in homologous groups and list those groups that contain tegumentary proteins
+
+TALsDomains.sh
+# The objective of the script is to extract the protein domains present in Tegument Antigen Like (TAL) proteins
+
+DDscript.sh
+# The goal of this AI generated script is to search for proteins identified by proteomics within homologs groups (HGs) and list those groups
+
+FisherTest.r
+# Pfam Domain Enrichment Analysis (Fisher's Test)
+
+SharedGenes.sh
+# The goal of this script is to make a list of shared genes between the tegument of H. microstoma, M. corti and E.multilocularis, grouped by homologous groups
+
+SppCounter.sh
+# The goal of this script is to find, among the homologs groups (output files from get_homologues), those that have sequences from the species I want
